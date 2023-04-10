@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body {
+    background-color: #00ABE1;
+    margin: 0;
+    
+}
+
+.header_container {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Bubblegum Sans', cursive;
+
+}
+
+.span1 {
+    color: #161F6D;
+    font-size: 50px;
+
+}
+
+.span2 {
+    color: white;
+    font-size: 50px;
+
+}
+
+.span4 {
+    color: #161F6D;
+    font-size: 25px;
+
+}
+
+.span3 {
+    color: white;
+    font-size: 25px;
+
+}
+
+.footer_container{
+    position: fixed;
+    bottom: 0;
+    font-family: 'Bubblegum Sans', cursive;
+    color: #161F6D;
+    margin-left: 500px;
+
+}
+
+canvas {
+    border-style: solid;
+    border-color: #161F6D;
+    border-width: 15px;
+    border-radius: 20px;
+
+}
+
+.dj_disc_speed {
+    float: left;
+    margin-left: 40px;
+    margin-top: 200px;
+
+}
+
+.dj_disc_volume {
+    float: right;
+    margin-right: 40px;
+    margin-top: 200px;
+
+}
+
+.disc_label {
+    background-color: #161F6D;
+    color: white;
+    font-family: 'Bubblegum Sans', cursive;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+.disc1 {
+    width: 200px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #161F6D;
+    border-width: 10px;
+
+}
+
+.disc2 {
+    width: 200px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #161F6D;
+    border-width: 10px;
+
+}
+
+.play_button {
+    background-color: #161F6D;
+    font-size: 35px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Bubblegum Sans', cursive;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    border-style: none;
+    
+
+}
+
+.play_button:hover {
+    background-color: #2b3cd4;
+}

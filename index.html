@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=aMxG3vlFnPc39gcS3UJ8p7wUjvE1uoG3l3WUVw7ydJ6OywvWJl5tUgq2aY9KjPgbxC21biGx0RpQZdzxYFfO2A" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+<body>
+<center>
+  <div class="header_container">
+    <span class="span1">DJ AI</span>
+    <span class="span2">WEB APP</span>
+  </div> 
+
+  <button class="play_button" onclick="play()"> PLAY </button>
+
+  <div class="dj_disc_speed">
+    <img class="disc1" src="disk.gif">
+    <br>
+    <h3 id="disc_speed" class="disc_label">Speed: </h3>
+  </div>
+
+  <div class="dj_disc_volume">
+    <img class="disc2" src="disk.gif">
+    <br>
+    <h3 id="disc_volume" class="disc_label">Volume: </h3>
+  </div>
+
+
+  <div class="footer_container">
+    <span class="span3">Move left wrist up and down to change volume.</span>
+    <span class="span4">Move right wrist up and down to change speed.</span>
+    </div>
+
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
